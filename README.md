@@ -21,4 +21,4 @@
      docker run -d -p 49160:8002 docker_node:app
     ```
 
-Browse:  http://localhost:8002
+Browse:  http://localhost:49160
