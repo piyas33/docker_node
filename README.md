@@ -1,7 +1,24 @@
 # docker_node
 
-1. docker build -t docker_node:app .
-2. docker images -a  //show all docker image
-3. docker run -p 8002:8002 docker_node:app
+1. Clone project:
+   ```
+   git clone https://github.com/piyas33/docker_node
+   ```
+2. Install Dependency:
+   ```
+   npm install
+   ```
+3. Build the Docker image:
+   ```
+   docker build -t docker_node:app .
+   ```
+   show all images:
+   ```
+   docker images -a
+   ```
+4.  Run a Container:
+    ```
+     docker run -d -p 49160:8002 docker_node:app
+    ```
 
 Browse:  http://localhost:8002
